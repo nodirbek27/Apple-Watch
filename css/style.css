@@ -197,12 +197,21 @@ img {
   color: #000;
 }
 
+.lead-cta-white .lead-cta-heading {
+  color: #fff;
+}
+
 .lead-cta-text {
   margin-top: 0;
   margin-bottom: 30px;
   padding-left: 37px;
   border-left: 3px solid #888;
   color: #777;
+}
+
+.lead-cta-white .lead-cta-text {
+  color: #fff;
+  border-color: #fff;
 }
 
 /* FEATURES */
@@ -272,6 +281,22 @@ img {
 }
 
 
+/* RUNNERS */
+.runners {
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url(../img/runners.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.runners-lead-cta {
+  margin-left: auto;
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -282,6 +307,10 @@ only screen and (                min-resolution: 2dppx) {
 
   .hero {
     background-image: url(../img/intro-bg@2x.jpg);
+  }
+
+  .runners {
+    background-image: url(../img/runners@2x.jpg);
   }
 
 }
